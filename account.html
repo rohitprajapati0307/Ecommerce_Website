@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>R.K. Store | Ecommerce Website Design </title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container-1">
+<div class="container">
+<div class="navbar">
+<div class="log">
+<img src="images/logo.png" width="125px">
+</div>
+<nav> <ul>
+<li> <a href="#"> Home </a> </li>
+<li> <a href="#"> Products </a> </li>
+<li> <a href="#"> About </a> </li>
+<li> <a href="#"> Contact </a> </li>
+<li> <a href="#"> Account </a> </li>
+</ul></nav>
+<img src="images/cart.png" width="30px" height="30px">
+</div>
+
+</div>
+</div>
+
+<!------------------ Account - Page  -------------------------->
+<div class="account-page">
+    <div class="Container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/image1.png" width="100%">
+            </div>
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Login</span>
+                        <span onclick="register()">Register</span>
+                        <hr id="Indicator">
+                    </div>
+<form id="LoginForm">
+<input type="text" placeholder="Username">
+<input type="password" placeholder="Password">
+<button type="submit" class="btn"> Login </button>
+    <a href="">Forgot Password</a>
+</form>
+
+
+<form id="RegForm">
+<input type="text" placeholder="Username">
+<input type="email" placeholder="Email">
+<input type="password" placeholder="Password">
+<button type="submit" class="btn">Register </button>
+</form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!------------------ Footers -------------------------->
+<div class="sagar">
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App </h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Link</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                    </div>
+        </div>
+</div>
+</div>
+</div>
+
+<!-------------- js For  Toggle Menu ---------------->
+
+<script>
+    var MenuIteam =document.getElementById("MenuItems");
+    MenuIteam.style.maxHeight == "0px";
+
+    function menutoggle(){
+        if(MenuIteam.style.maxHeight == "0px" )
+        {
+            MenuIteam.style.maxHeight == "200px";
+        }
+        else
+        {
+            MenuIteam.style.maxHeight = "0px"
+        }
+    }
+</script>
+
+<!-------------- js For  Toggle Form ---------------->
+<script>
+var LoginForm = document.getElementById("LoginForm");
+var RegForm = document.getElementById("RegForm");
+var Indicator = document.getElementById("Indicator");
+
+function register(){
+
+    RegForm.style.transform = "translateX(0px)";
+    LoginForm.style.transform = "translateX(0px)";
+    Indicator.style.transform = "translateX(100px)";
+}
+
+function login(){
+
+RegForm.style.transform = "translateX(300px)";
+LoginForm.style.transform = "translateX(300px)";
+Indicator.style.transform = "translateX(0px)";
+}
+
+
+</script>
+
+</body>
+</html>
