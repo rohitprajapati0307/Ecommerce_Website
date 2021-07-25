@@ -8,6 +8,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+
 </head>
 <body>
 <div class="container-1">
@@ -280,7 +282,7 @@ when an unknown printer took a galley of type and scrambled it to make a type sp
         </div>
     </div>
 </div>
-<!------------------ Brands -------------------------->
+<!--------------------------------- Brands ---------------------------------------->
 <div class="brands">
     <div class="small-container">
         <div class="row">
@@ -302,7 +304,7 @@ when an unknown printer took a galley of type and scrambled it to make a type sp
         </div>
     </div>
 </div>
-<!--------------------------- Footers -------------------------->
+<!------------------------------------ Footers ------------------------------------->
 
 <div class="footer">
     <div class="container">
@@ -344,7 +346,7 @@ when an unknown printer took a galley of type and scrambled it to make a type sp
 </div>
 
 
-<!----------------------Js For  Toggle Men------------------------->
+<!---------------------------------Js For  Toggle Men------------------------->
 
 <script>
 var MenuItems = document.getElementById("MenuItems");
@@ -361,6 +363,22 @@ else
     MenuItems.style.maxHeight = "0px"
 }
 }
+</script>
+
+
+<!----------------------slick-carousel ------------------------->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script type="text/javascript">
+$('.').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+
 
 </script>
 
