@@ -285,8 +285,6 @@ when an unknown printer took a galley of type and scrambled it to make a type sp
 <!--------------------------------- Brands ---------------------------------------->
 <div class="brands">
     <div class="small-container">
-      <i class="fas fa-chevron-left prev"></i> 
-      <i class="fas fa-chevron-right next"></i>   
         <div class="row responsive">
             <div class="col-5">
                 <img src="images/logo-godrej.png">
@@ -374,20 +372,12 @@ else
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <script type="text/javascript">
-
-
-
-
 $('.responsive').slick({
   dots: true,
   infinite: false,
-   autoplay: true,
-  autoplaySpeed: 2000,
+  speed: 300,
   slidesToShow: 4,
   slidesToScroll: 4,
-  prevArrow:$('.prev'),
-  nextArrow:$('.next'),
-
   responsive: [
     {
       breakpoint: 1024,
