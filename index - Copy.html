@@ -1,334 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>R.K. Store | Ecommerce Website Design </title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R.K. Store | Ecommerce Website Design </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
 
 </head>
+
 <body>
-<div class="container-1">
-<div class="container">
-<div class="navbar">
-<div class="log">
-    <a href="index.html"><img src="images/logo.png" width="125px"></a>
-</div>
-<nav> <ul id="MenuItems">
-<li> <a href="index.html"> Home </a> </li>
-<li> <a href="products.html"> Products </a> </li>
-<li> <a href="about.html"> About </a> </li>
-<li> <a href="contact"> Contact </a> </li>
-<li> <a href="account.html"> Account </a> </li>
-</ul></nav>
-<img src="images/cart.png" width="30px" height="30px">
-<img src="images/menu.png" class="menu-icon" 
-onclick="menutoggle()">
-</div>
-<div class="row">
-<div class="col-2"> 
-<h1> Give Your Workout<br> A new Style! </h1>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br> 
-when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-<a href="#" class="btn"> Explore Now &#8594; </a>
-</div>
-<div class="col-2"> 
-<img src="images/image1.png">
-</div>
-</div>
-</div>
-</div>
-
-<!------------------ Featured Categories  -------------------------->
-<div class="categories">
-<div class="small-container">
-<div class="row">
-<div class="col-3">
-<img src="images/category-1.jpg">
-</div>
-<div class="col-3">
-<img src="images/category-2.jpg">
-</div>
-<div class="col-3">
-<img src="images/category-3.jpg">
-</div>
-</div>
-</div>
-</div>
-
-<!------------------ Featured Products  -------------------------->
-<div class="small-container">
-<h2 class="title" > Featured Products </h2>
-<div class="row">
-<div class="col-4">
-<img src="images/product-1.jpg">
-<h4> Red Printed t-shirt</h4>
-<div class="rating">
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star-o" aria-hidden="true"></i>
-</div>
-<p>$50.00</p>
-</div>
-<div class="col-4">
-<img src="images/product-2.jpg">
-<h4> Red Printed t-shirt</h4>
-<div class="rating">
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star-half-o" aria-hidden="true"></i>
-</div>
-<p>$50.00</p>
-</div>
-<div class="col-4">
-<img src="images/product-3.jpg">
-<h4> Red Printed t-shirt</h4>
-<div class="rating">
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star-o" aria-hidden="true"></i>
-</div>
-<p>$50.00</p>
-</div>
-<div class="col-4">
-<img src="images/product-4.jpg">
-<h4> Red Printed t-shirt</h4>
-<div class="rating">
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star-half-o" aria-hidden="true"></i>
-</div>
-<p>$50.00</p>
-</div>
-</div>
-<!------------------ Latest Products  -------------------------->
-
-<h2 class="title" > Latest Products </h2>
-<div class="row">
-<div class="col-4">
-<img src="images/product-5.jpg">
-<h4> Red Printed t-shirt</h4>
-<div class="rating">
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star-o" aria-hidden="true"></i>
-</div>
-<p>$50.00</p>
-</div>
-<div class="col-4">
-<img src="images/product-6.jpg">
-<h4> Red Printed t-shirt</h4>
-<div class="rating">
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star-half-o" aria-hidden="true"></i>
-</div>
-<p>$50.00</p>
-</div>
-<div class="col-4">
-<img src="images/product-7.jpg">
-<h4> Red Printed t-shirt</h4>
-<div class="rating">
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star-o" aria-hidden="true"></i>
-</div>
-<p>$50.00</p>
-</div>
-<div class="col-4">
-<img src="images/product-8.jpg">
-<h4> Red Printed t-shirt</h4>
-<div class="rating">
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star-half-o" aria-hidden="true"></i>
-</div>
-<p>$50.00</p>
-</div>
-</div>
-<div class="row">
-<div class="col-4">
-<img src="images/product-9.jpg">
-<h4> Red Printed t-shirt</h4>
-<div class="rating">
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star-o" aria-hidden="true"></i>
-</div>
-<p>$50.00</p>
-</div>
-<div class="col-4">
-<img src="images/product-10.jpg">
-<h4> Red Printed t-shirt</h4>
-<div class="rating">
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star-half-o" aria-hidden="true"></i>
-</div>
-<p>$50.00</p>
-</div>
-<div class="col-4">
-<img src="images/product-11.jpg">
-<h4> Red Printed t-shirt</h4>
-<div class="rating">
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star-o" aria-hidden="true"></i>
-</div>
-<p>$50.00</p>
-</div>
-<div class="col-4">
-<img src="images/product-12.jpg">
-<h4> Red Printed t-shirt</h4>
-<div class="rating">
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star-half-o" aria-hidden="true"></i>
-</div>
-<p>$50.00</p>
-</div>
-</div>
-</div>
-
-<!------------------ Offer  -------------------------->
-
-
-<div class="offer">
-    <div class="small container">
-        <div class="row">
-            <div class="col-2">
-                <img src="images/exclusive.png" class="offer-img">
+    <div class="container-1">
+        <div class="container">
+            <div class="navbar">
+                <div class="log">
+                    <a href="index.html"><img src="images/logo.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li> <a href="index.html"> Home </a> </li>
+                        <li> <a href="products.html"> Products </a> </li>
+                        <li> <a href="about.html"> About </a> </li>
+                        <li> <a href="contact.html"> Contact </a> </li>
+                        <li> <a href="account.html"> Account </a> </li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
             </div>
-            <div class="col-2">
-                <p>exclusively Availble on RedStore</p>
-                <h1>Smart Band 4 </h1>
-                <small>The Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br> 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book
-                </small>
-                <a href="" class="btn"> Buy Now &#8594;</a>
+            <div class="row">
+                <div class="col-2">
+                    <h1> Give Your Workout<br> A new Style! </h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum has
+                        been the industry's standard dummy text ever since the 1500s,<br>
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                    <a href="#" class="btn"> Explore Now &#8594; </a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png">
+                </div>
             </div>
-
         </div>
     </div>
-</div>
-<!------------------ Testimonial -------------------------->
-<div class="testimonial">
-    <div class="small-container">
-        <div class="row">
-            <div class="col-3"><i class="fa fa-quote-left"></i>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <div class="rating">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+
+    <!------------------ Featured Categories  -------------------------->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg">
                 </div>
-                <img src="images/user-1.png">
-                <h3>Sean Parker</h3>
+                <div class="col-3">
+                    <img src="images/category-2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3.jpg">
+                </div>
             </div>
-            <div class="col-3"><i class="fa fa-quote-left"></i>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+    </div>
+
+    <!------------------ Featured Products  -------------------------->
+    <div class="small-container">
+        <h2 class="title"> Featured Products </h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg">
+                <h4> Red Printed t-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg">
+                <h4> Red Printed t-shirt</h4>
                 <div class="rating">
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star" aria-hidden="true"></i>
                     <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                    </div>
-                    <img src="images/user-2.png">
-                    <h3>Sean Parker</h3>
                 </div>
-                <div class="col-3"><i class="fa fa-quote-left"></i>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg">
+                <h4> Red Printed t-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg">
+                <h4> Red Printed t-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <!------------------ Latest Products  -------------------------->
+
+        <h2 class="title"> Latest Products </h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-5.jpg">
+                <h4> Red Printed t-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-6.jpg">
+                <h4> Red Printed t-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-7.jpg">
+                <h4> Red Printed t-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-8.jpg">
+                <h4> Red Printed t-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-9.jpg">
+                <h4> Red Printed t-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-10.jpg">
+                <h4> Red Printed t-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-11.jpg">
+                <h4> Red Printed t-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-12.jpg">
+                <h4> Red Printed t-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!------------------ Offer  -------------------------->
+
+
+    <div class="offer">
+        <div class="small container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>exclusively Availble on RedStore</p>
+                    <h1>Smart Band 4 </h1>
+                    <small>The Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum
+                        has been the industry's standard dummy text ever since the 1500s,<br>
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                    </small>
+                    <a href="" class="btn"> Buy Now &#8594;</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!------------------ Testimonial -------------------------->
+    <div class="testimonial">
+        <div class="small-container">
+            <h2 class="title"> Testimonial </h2>
+            <div class="row">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="col-3"><i class="fa fa-quote-left"></i>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been
+                                    the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                    took a galley
+                                    of type and scrambled it to make a type specimen book.</p>
+                                <div class="rating">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                </div>
+                                <img src="images/user-1.png">
+                                <h3>Sean Parker</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-3"><i class="fa fa-quote-left"></i>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been
+                                    the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                    took a galley
+                                    of type and scrambled it to make a type specimen book.</p>
+                                <div class="rating">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                </div>
+                                <img src="images/user-1.png">
+                                <h3>Sean Parker</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-3"><i class="fa fa-quote-left"></i>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been
+                                    the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                    took a galley
+                                    of type and scrambled it to make a type specimen book.</p>
+                                <div class="rating">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                </div>
+                                <img src="images/user-1.png">
+                                <h3>Sean Parker</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-3"><i class="fa fa-quote-left"></i>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been
+                                    the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                    took a galley
+                                    of type and scrambled it to make a type specimen book.</p>
+                                <div class="rating">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                </div>
+                                <img src="images/user-1.png">
+                                <h3>Sean Parker</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-3"><i class="fa fa-quote-left"></i>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been
+                                    the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                    took a galley
+                                    of type and scrambled it to make a type specimen book.</p>
+                                <div class="rating">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                </div>
+                                <img src="images/user-1.png">
+                                <h3>Sean Parker</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="col-3"><i class="fa fa-quote-left"></i>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been
+                                    the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                    took a galley
+                                    of type and scrambled it to make a type specimen book.</p>
+                                <div class="rating">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                </div>
+                                <img src="images/user-1.png">
+                                <h3>Sean Parker</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+
+
+
+
+                <!-- <div class="col-3"><i class="fa fa-quote-left"></i>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</p>
                     <div class="rating">
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star-half-o" aria-hidden="true"></i>
-                        </div>
-                        <img src="images/user-3.png">
-                        <h3>Sean Parker</h3>
                     </div>
+                    <img src="images/user-1.png">
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col-3"><i class="fa fa-quote-left"></i>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <img src="images/user-2.png">
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col-3"><i class="fa fa-quote-left"></i>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book.</p>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <img src="images/user-3.png">
+                    <h3>Sean Parker</h3>
+                </div> -->
+            </div>
         </div>
     </div>
-</div>
-<!--------------------------------- Brands ---------------------------------------->
-<div class="brands">
-    <div class="small-container">
-        <div class="row responsive">
-            <div class="col-5">
-                <img src="images/logo-godrej.png">
-            </div>
-            <div class="col-5">
-                <img src="images/logo-oppo.png">
-            </div>
-            <div class="col-5">
-                <img src="images/logo-coca-cola.png">
-            </div>
-            <div class="col-5">
-                <img src="images/logo-paypal.png">
-            </div>
-            <div class="col-5">
-                <img src="images/logo-philips.png">
-            </div>
-        </div>
-    </div>
-</div>
-<!------------------------------------ Footers ------------------------------------->
-
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="footer-col-1">
-                <h3>Download our App </h3>
-                <p>Download App for Android and ios mobaile phone</p>
-                <div class="app-logo">
-                    <img src="images/play-store.png">
-                    <img src="images/app-store.png">
+    <!--------------------------------- Brands ---------------------------------------->
+    <div class="brands">
+        <div class="small-container">
+            <h2 class="title"> Brands </h2>
+            <div class=" row slick marquee">
+                <div class="slick-slide">
+                    <div class="inner col-5 img">
+                        <img src="images/logo-godrej.png" alt="Placeholder">
+                    </div>
+                </div>
+                <div class="slick-slide">
+                    <div class="inner col-5 img">
+                        <img src="images/logo-oppo.png" alt="Placeholder">
+                    </div>
+                </div>
+                <div class="slick-slide">
+                    <div class="inner col-5 img">
+                        <img src="images/logo-coca-cola.png" alt="Placeholder">
+                    </div>
+                </div>
+                <div class="slick-slide">
+                    <div class="inner col-5 img">
+                        <img src="images/logo-paypal.png" alt="Placeholder">
+                    </div>
+                </div>
+                <div class="slick-slide">
+                    <div class="inner col-5 img">
+                        <img src="images/logo-philips.png" alt="Placeholder">
+                    </div>
                 </div>
             </div>
-            <div class="footer-col-2">
-                <img src="images/logo-white.png">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
-            <div class="footer-col-3">
-                <h3>Useful Link</h3>
-                <ul>
-                    <li>Coupons</li>
-                    <li>Blog Post</li>
-                    <li>Return Policy</li>
-                    <li>Join Affiliate</li>
-                </ul>
+        </div>
+    </div>
+    <!------------------------------------ Footers ------------------------------------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App </h3>
+                    <p>Download App for Android and ios mobaile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Link</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
                 </div>
                 <div class="footer-col-4">
                     <h3>Follow Us</h3>
@@ -338,78 +485,91 @@ when an unknown printer took a galley of type and scrambled it to make a type sp
                         <li>Instagram</li>
                         <li>YouTube</li>
                     </ul>
-                    </div>
                 </div>
-                <hr>
-                <p class="copyright"> Copyright 2021 R.K. Prajapati</p>
-</div>
-</div>
+            </div>
+            <hr>
+            <p class="copyright"> Copyright 2021 R.K. Prajapati</p>
+        </div>
+    </div>
 
 
-<!---------------------------------Js For  Toggle Men------------------------->
+    <!---------------------------------Js For  Toggle Men------------------------->
 
-<script>
-var MenuItems = document.getElementById("MenuItems");
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
 
-MenuItems.style.maxHeight = "0px";
+        MenuItems.style.maxHeight = "0px";
 
-function menutoggle(){
-    if(MenuItems.style.maxHeight == "0px")
-{
-    MenuItems.style.maxHeight = "200px";
-}
-else
-{
-    MenuItems.style.maxHeight = "0px"
-}
-}
-</script>
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
 
 
-<!----------------------slick-carousel ------------------------->
+    <!----------------------slick-carousel ------------------------->
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $('.slick.marquee').slick({
+                speed: 5000,
+                autoplay: true,
+                autoplaySpeed: 0,
+                centerMode: true,
+                cssEase: 'linear',
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                variableWidth: true,
+                infinite: true,
+                initialSlide: 1,
+                arrows: false,
+                buttons: false
+            });
+        });
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-<script type="text/javascript">
-$('.responsive').slick({
-  dots: true,
-  infinite: false,
-  speed: 300,
-  slidesToShow: 4,
-  slidesToScroll: 4,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
+    </script>
 
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-</script>
+    <!-- Initialize Swiper -->
+    <script>
+         var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+        },
+      });
+    </script>
 
 </body>
+
 </html>
